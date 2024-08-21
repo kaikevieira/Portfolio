@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004A45;
+    color: #FFFDCC;
+    font-family: "Montserrat", sans-serif;
+}
+
+.paragraph__highlight {
+    color: #c5c37a;
+}
+
+.self__introduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75%;
+    width: 100%;
+}
+
+.self__introduction__content {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.self__introduction__title {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.self__introduction__text {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.self__introduction__links {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.self__introduction__links__instagram, .self__introduction__links__github {
+    background-color: #002724;
+    border: none;
+    color: #c5c37a;
+    padding: 24px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.6s;
+}
+
+.self__introduction__links__instagram:hover, .self__introduction__links__github:hover {
+    background-color: #009288;
+    color: #c5c37a;
+}
